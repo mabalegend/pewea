@@ -6,6 +6,8 @@ var cacheName = 'js13kPWA-v1';
 var appShellFiles = [
   './',
   './index.html',
+    './about.html',
+    './blog.html',
     //'./service-worker.js',
 ];
 
