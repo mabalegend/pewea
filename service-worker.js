@@ -6,6 +6,7 @@ var cacheName = 'js13kPWA-v1';
 var appShellFiles = [
   './',
   './index.html',
+    './service-worker.js'
 ];
 
 self.addEventListener('install', function(e) {
