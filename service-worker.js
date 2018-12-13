@@ -17,8 +17,8 @@ self.addEventListener("install", function(event) {
            after making HTTP requests for each of them.
         */
         return cache.addAll([
-          '/',
-          '/service-worker.js'
+          './',
+          './service-worker.js'
         ]);
       })
       .then(function() {
